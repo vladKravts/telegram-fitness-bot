@@ -20,7 +20,7 @@ async def choose_day(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text("Выбери день тренировки:", reply_markup=reply_markup)
 
-async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, day=None):
     query = update.callback_query
     await query.answer()
     day = query.data
@@ -28,12 +28,12 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     with open('workot_plan.json', 'r', encoding='utf-8') as file:
         plan = json.load(file)
 
-    day_plan = plan.get(day, {})
+    day_plan = next((item for item in plan ['training_split'] if item['day'] == day), None)
     if not day_plan:
         await query.edit_message_text(f"План на {day} не найден.")
         return
 
-    message = f"Тренировка: {day}\nГруппы мышц: {', '.join(day_plan['muscle_groups'])}\n\n"
+    message = f"Тренировка: {day}\nГруппы мышц: {day_plan['focus']}\n\n"
     for ex in day_plan['exercises']:
         message += f"{ex['name']}: {ex['sets']}x{ex['reps']} (предыдущий вес: {ex['last_weight'] or '—'})\n"
 
