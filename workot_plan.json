@@ -1,0 +1,221 @@
+{
+  "training_split": [
+    {
+      "day": "Day 1",
+      "focus": "Спина + Бицепс",
+      "exercises": [
+        {
+          "name": "Подтягивания / Тяга верхнего блока",
+          "sets": 4,
+          "reps": "8-12",
+          "last_weight": null
+        },
+        {
+          "name": "Тяга штанги в наклоне",
+          "sets": 4,
+          "reps": "8-10",
+          "last_weight": null
+        },
+        {
+          "name": "Тяга гантели одной рукой",
+          "sets": 3,
+          "reps": "10",
+          "last_weight": null
+        },
+        {
+          "name": "Гиперэкстензия / Становая на прямых ногах",
+          "sets": 3,
+          "reps": "12",
+          "last_weight": null
+        },
+        {
+          "name": "Подъём штанги на бицепс",
+          "sets": 3,
+          "reps": "10-12",
+          "last_weight": null
+        },
+        {
+          "name": "Подъём гантелей «молот»",
+          "sets": 3,
+          "reps": "10-12",
+          "last_weight": null
+        },
+        {
+          "name": "Скручивания на пресс",
+          "sets": 3,
+          "reps": "15-20",
+          "last_weight": null
+        }
+      ]
+    },
+    {
+      "day": "Day 2",
+      "focus": "Грудь + Трицепс",
+      "exercises": [
+        {
+          "name": "Жим штанги лёжа",
+          "sets": 4,
+          "reps": "8-10",
+          "last_weight": null
+        },
+        {
+          "name": "Жим гантелей под наклоном",
+          "sets": 3,
+          "reps": "10",
+          "last_weight": null
+        },
+        {
+          "name": "Разводка гантелей",
+          "sets": 3,
+          "reps": "12",
+          "last_weight": null
+        },
+        {
+          "name": "Отжимания на брусьях / от скамьи",
+          "sets": 3,
+          "reps": "10-12",
+          "last_weight": null
+        },
+        {
+          "name": "Французский жим",
+          "sets": 3,
+          "reps": "10",
+          "last_weight": null
+        },
+        {
+          "name": "Разгибание руки с гантелей за головой",
+          "sets": 3,
+          "reps": "12",
+          "last_weight": null
+        },
+        {
+          "name": "Планка",
+          "sets": 3,
+          "reps": "1 мин",
+          "last_weight": null
+        }
+      ]
+    },
+    {
+      "day": "Day 3",
+      "focus": "Отдых / активное восстановление",
+      "exercises": []
+    },
+    {
+      "day": "Day 4",
+      "focus": "Ноги + Пресс",
+      "exercises": [
+        {
+          "name": "Приседания со штангой",
+          "sets": 4,
+          "reps": "8-10",
+          "last_weight": null
+        },
+        {
+          "name": "Выпады с гантелями",
+          "sets": 3,
+          "reps": "12",
+          "last_weight": null
+        },
+        {
+          "name": "Жим ногами",
+          "sets": 3,
+          "reps": "10",
+          "last_weight": null
+        },
+        {
+          "name": "Сгибание ног лёжа",
+          "sets": 3,
+          "reps": "12",
+          "last_weight": null
+        },
+        {
+          "name": "Подъём на носки (икры)",
+          "sets": 4,
+          "reps": "15",
+          "last_weight": null
+        },
+        {
+          "name": "Подъём ног в висе / на скамье",
+          "sets": 3,
+          "reps": "15",
+          "last_weight": null
+        },
+        {
+          "name": "Велосипед лёжа",
+          "sets": 2,
+          "reps": "30 сек",
+          "last_weight": null
+        }
+      ]
+    },
+    {
+      "day": "Day 5",
+      "focus": "Плечи + Бицепс (добивка)",
+      "exercises": [
+        {
+          "name": "Жим штанги / гантелей сидя",
+          "sets": 4,
+          "reps": "8-10",
+          "last_weight": null
+        },
+        {
+          "name": "Подъём гантелей в стороны",
+          "sets": 3,
+          "reps": "12",
+          "last_weight": null
+        },
+        {
+          "name": "Подъём гантелей вперёд",
+          "sets": 3,
+          "reps": "12",
+          "last_weight": null
+        },
+        {
+          "name": "Тяга штанги к подбородку",
+          "sets": 3,
+          "reps": "10",
+          "last_weight": null
+        },
+        {
+"name": "Концентрированный подъём на бицепс",
+          "sets": 3,
+          "reps": "10",
+          "last_weight": null
+        },
+        {
+          "name": "Подъём штанги на скамье Скотта / в слипе",
+          "sets": 3,
+          "reps": "12",
+          "last_weight": null
+        },
+        {
+          "name": "Скручивания с весом",
+          "sets": 3,
+          "reps": "15",
+          "last_weight": null
+        }
+      ]
+    },
+    {
+      "day": "Day 6–7",
+      "focus": "Отдых / кардио / растяжка",
+      "exercises": []
+    }
+  ],
+  "notes": {
+    "rest_between_sets": "60–90 секунд",
+    "rep_range": "8–12 для роста массы",
+    "progressive_overload": true,
+    "priority_muscles": [
+      "бицепс",
+      "спина",
+      "грудь",
+      "плечи"
+    ],
+    "additional_muscles": [
+      "ноги",
+      "пресс"
+    ]
+  }
+}
